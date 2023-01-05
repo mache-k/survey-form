@@ -1,4 +1,7 @@
-body, p, h1{
+body,
+p,
+h1,
+form{
     margin: 0;
     padding: 0;
 }

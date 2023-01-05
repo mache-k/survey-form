@@ -3,3 +3,23 @@
     color: var(--white);
 }
 
+.title-input{
+    font-size: 1.2rem;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.input-data{
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem ;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.form-components{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
