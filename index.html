@@ -60,14 +60,14 @@
             <div class="form-components">
                 <p class="title-input">What is your favorite feature of freeCodeCamp?</p>
                 <select id="most-like" name="mostLike" class="input-data" required="">
-                  <option disabled="" selected="" value="">Select an option</option>
-                  <option value="challenges">Challenges</option>
-                  <option value="projects">Projects</option>
-                  <option value="community">Community</option>
-                  <option value="openSource">Open Source</option>
+                <option disabled="" selected="" value="">Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="openSource">Open Source</option>
                 </select>
-              </div>
-              <div class="form-components">
+            </div>
+            <div class="form-components">
                 <p class="title-input">What would you like to see improved?<span class="clue">(Check all that apply)</span></p>
                 <label class="title-input"><input name="prefer" value="front-end-projects" type="checkbox" class="input-radioCheck">Front-end Projects</label>
                 <label class="title-input"><input name="prefer" value="back-end-projects" type="checkbox" class="input-radioCheck">Back-end Projects</label>
@@ -80,7 +80,14 @@
                 <label class="title-input"><input name="prefer" value="wiki" type="checkbox" class="input-radioCheck">Wiki</label>
                 <label class="title-input"><input name="prefer" value="forum" type="checkbox" class="input-radioCheck">Forum</label>
                 <label class="title-input"><input name="prefer" value="additional-courses" type="checkbox" class="input-radioCheck">Additional Courses</label>
-              </div>
+            </div>
+            <div class="form-components">
+                <p class="title-input">Any comments or suggestions?</p>
+                <textarea id="comments" class="input-data -textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="button">Submit</button>
+            </div>
         </Form>
     </div>
 </body>

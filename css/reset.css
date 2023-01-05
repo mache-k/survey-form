@@ -2,7 +2,9 @@ body,
 p,
 h1,
 form,
-h5{
+h5,
+label,
+div{
     margin: 0;
     padding: 0;
 }
