@@ -23,3 +23,9 @@ body{
     margin: 1rem auto;
 }
 
+.main-form{
+    max-width: 60%;
+    height: auto;
+    background-color: rgba(27, 27, 50, 0.8);
+}
+
