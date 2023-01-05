@@ -45,18 +45,42 @@
             <div class="form-components">
                 <p class="title-input">Would you recommend freeCodeCamp to a friend?</p>
                 <div> 
-                    <input class="input-radio" type="radio" name="" id="Definitely">
+                    <input class="input-radioCheck" type="radio" name="" id="Definitely">
                     <label class="title-input" for="Definitely">Definitely</label>
                 </div>
                 <div>
-                    <input class="input-radio" type="radio" name="" id="Maybe">
+                    <input class="input-radioCheck" type="radio" name="" id="Maybe">
                     <label class="title-input" for="Maybe">Maybe</label>
                 </div>
                 <div>
-                    <input class="input-radio" type="radio" name="" id="Not sure">    
+                    <input class="input-radioCheck" type="radio" name="" id="Not sure">    
                     <label class="title-input" for="Not sure">Not sure</label>
                 </div>
             </div>
+            <div class="form-components">
+                <p class="title-input">What is your favorite feature of freeCodeCamp?</p>
+                <select id="most-like" name="mostLike" class="input-data" required="">
+                  <option disabled="" selected="" value="">Select an option</option>
+                  <option value="challenges">Challenges</option>
+                  <option value="projects">Projects</option>
+                  <option value="community">Community</option>
+                  <option value="openSource">Open Source</option>
+                </select>
+              </div>
+              <div class="form-components">
+                <p class="title-input">What would you like to see improved?<span class="clue">(Check all that apply)</span></p>
+                <label class="title-input"><input name="prefer" value="front-end-projects" type="checkbox" class="input-radioCheck">Front-end Projects</label>
+                <label class="title-input"><input name="prefer" value="back-end-projects" type="checkbox" class="input-radioCheck">Back-end Projects</label>
+                <label class="title-input"><input name="prefer" value="data-visualization" type="checkbox" class="input-radioCheck">Data Visualization</label>
+                <label class="title-input"><input name="prefer" value="challenges" type="checkbox" class="input-radioCheck">Challenges</label>
+                <label class="title-input"><input name="prefer" value="open-source-community" type="checkbox" class="input-radioCheck">Open Source Community</label>
+                <label class="title-input"><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-radioCheck">Gitter help rooms</label>
+                <label class="title-input"><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label>
+                <label class="title-input"><input name="prefer" value="city-meetups" type="checkbox" class="input-radioCheck">City Meetups</label>
+                <label class="title-input"><input name="prefer" value="wiki" type="checkbox" class="input-radioCheck">Wiki</label>
+                <label class="title-input"><input name="prefer" value="forum" type="checkbox" class="input-radioCheck">Forum</label>
+                <label class="title-input"><input name="prefer" value="additional-courses" type="checkbox" class="input-radioCheck">Additional Courses</label>
+              </div>
         </Form>
     </div>
 </body>
