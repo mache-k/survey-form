@@ -21,11 +21,11 @@
         <Form class="main-form">
             <div class="form-components">
                 <label class="title-input" for="nameForm">Name</label>
-                <input class="input-data" type="text" id="nameForm" placeholder="Enter your name">
+                <input class="input-data" type="text" id="nameForm" placeholder="Enter your name" required>
             </div>
             <div class="form-components">
                 <label class="title-input" for="emailForm">E-mail</label>
-                <input class="input-data" type="email" id="emailForm" placeholder="Enter your e-mail">
+                <input class="input-data" type="email" id="emailForm" placeholder="Enter your e-mail" required>
             </div>
             <div class="form-components">
                 <label class="title-input" for="ageForm">Age <small>(Optional)</small></label>
@@ -33,7 +33,7 @@
             </div>
             <div class="form-components">
                 <p class="title-input">Which option best describes your current role?</p>
-                <select class="input-data" id="dropdown" name="role" class="form-control" required="">
+                <select class="input-data" id="dropdown" name="role" class="form-control" required>
                     <option disabled="" selected="" value="">Select current role</option>
                     <option value="student">Student</option>
                     <option value="job">Full Time Job</option>
@@ -69,23 +69,23 @@
             </div>
             <div class="form-components">
                 <p class="title-input">What would you like to see improved?<span class="clue">(Check all that apply)</span></p>
-                <label class="title-input"><input name="prefer" value="front-end-projects" type="checkbox" class="input-radioCheck">Front-end Projects</label>
-                <label class="title-input"><input name="prefer" value="back-end-projects" type="checkbox" class="input-radioCheck">Back-end Projects</label>
-                <label class="title-input"><input name="prefer" value="data-visualization" type="checkbox" class="input-radioCheck">Data Visualization</label>
-                <label class="title-input"><input name="prefer" value="challenges" type="checkbox" class="input-radioCheck">Challenges</label>
-                <label class="title-input"><input name="prefer" value="open-source-community" type="checkbox" class="input-radioCheck">Open Source Community</label>
-                <label class="title-input"><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-radioCheck">Gitter help rooms</label>
-                <label class="title-input"><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label>
-                <label class="title-input"><input name="prefer" value="city-meetups" type="checkbox" class="input-radioCheck">City Meetups</label>
-                <label class="title-input"><input name="prefer" value="wiki" type="checkbox" class="input-radioCheck">Wiki</label>
-                <label class="title-input"><input name="prefer" value="forum" type="checkbox" class="input-radioCheck">Forum</label>
-                <label class="title-input"><input name="prefer" value="additional-courses" type="checkbox" class="input-radioCheck">Additional Courses</label>
+                <label class="title-input label"><input name="prefer" value="front-end-projects" type="checkbox" class="input-radioCheck">Front-end Projects</label>
+                <label class="title-input label"><input name="prefer" value="back-end-projects" type="checkbox" class="input-radioCheck">Back-end Projects</label>
+                <label class="title-input label"><input name="prefer" value="data-visualization" type="checkbox" class="input-radioCheck">Data Visualization</label>
+                <label class="title-input label"><input name="prefer" value="challenges" type="checkbox" class="input-radioCheck">Challenges</label>
+                <label class="title-input label"><input name="prefer" value="open-source-community" type="checkbox" class="input-radioCheck">Open Source Community</label>
+                <label class="title-input label"><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-radioCheck">Gitter help rooms</label>
+                <label class="title-input label"><input name="prefer" value="videos" type="checkbox" class="input-radioCheck">Videos</label>
+                <label class="title-input label"><input name="prefer" value="city-meetups" type="checkbox" class="input-radioCheck">City Meetups</label>
+                <label class="title-input label"><input name="prefer" value="wiki" type="checkbox" class="input-radioCheck">Wiki</label>
+                <label class="title-input label"><input name="prefer" value="forum" type="checkbox" class="input-radioCheck">Forum</label>
+                <label class="title-input label"><input name="prefer" value="additional-courses" type="checkbox" class="input-radioCheck">Additional Courses</label>
             </div>
             <div class="form-components">
                 <p class="title-input">Any comments or suggestions?</p>
                 <textarea id="comments" class="input-data -textarea" name="comment" placeholder="Enter your comment here..."></textarea>
             </div>
-            <div class="form-group">
+            <div class="form-components ">
                 <button type="submit" id="submit" class="button">Submit</button>
             </div>
         </Form>

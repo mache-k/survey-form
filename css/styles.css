@@ -2,6 +2,12 @@
     --white: #f3f3f3;
 }
 
+@media (max-width: 768px){
+    .container{
+        max-width: 80%;
+    }
+}
+
 body::before{
     content: "";
     top: 0;
@@ -11,16 +17,15 @@ body::before{
     z-index: -1;
     background-size: cover;
     position: fixed;
-    opacity: 0.8;
+    opacity: 0.9;
     background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 }
 body{
-    padding: 2rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .container{
-    max-width: 60%;
+    max-width: 70%;
     height: auto;
     margin: 0 auto;
 }
@@ -28,9 +33,15 @@ body{
 .main-header{
     text-align: center;
     margin: 1rem auto;
+    text-shadow: 1 1 8px black;
+}
+
+.main-header h1{
+    font-size: 2.8rem;
 }
 
 .main-header p{
+    font-size: 1.2rem;
     font-weight: 200;
     font-style: italic;
 }
