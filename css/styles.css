@@ -2,6 +2,13 @@
     --white: #f3f3f3;
 }
 
-body{
-    background-color: blue;
+body::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    position: fixed;
+    opacity: 0.8;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 }
