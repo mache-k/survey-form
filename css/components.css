@@ -23,3 +23,8 @@
     gap: 0.5rem;
 }
 
+.input-radio{
+    margin-right: 1rem;
+    transform: scale(1.3);
+}
+

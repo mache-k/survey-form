@@ -32,7 +32,7 @@
                 <input class="input-data" type="number" id="ageForm" min="1" max="120" placeholder="Age">
             </div>
             <div class="form-components">
-                <label class="title-input" for="dropdown">Which option best describes your current role?</label>
+                <p class="title-input">Which option best describes your current role?</p>
                 <select class="input-data" id="dropdown" name="role" class="form-control" required="">
                     <option disabled="" selected="" value="">Select current role</option>
                     <option value="student">Student</option>
@@ -41,6 +41,21 @@
                     <option value="preferNo">Prefer not to say</option>
                     <option value="other">Other</option>
                 </select>
+            </div>
+            <div class="form-components">
+                <p class="title-input">Would you recommend freeCodeCamp to a friend?</p>
+                <div> 
+                    <input class="input-radio" type="radio" name="" id="Definitely">
+                    <label class="title-input" for="Definitely">Definitely</label>
+                </div>
+                <div>
+                    <input class="input-radio" type="radio" name="" id="Maybe">
+                    <label class="title-input" for="Maybe">Maybe</label>
+                </div>
+                <div>
+                    <input class="input-radio" type="radio" name="" id="Not sure">    
+                    <label class="title-input" for="Not sure">Not sure</label>
+                </div>
             </div>
         </Form>
     </div>
